@@ -16,9 +16,9 @@ pragma solidity 0.8.18;
 */
 
 contract MyToken {
-    string tokeName="SWAT";
-    string tokenAbbrv="SWT";
-    uint totalSupply=0;
+    string public  tokeName="SWAT";
+    string public  tokenAbbrv="SWT";
+    uint public  totalSupply=0;
     // public variables here
 
     mapping(address=>uint) public  balances;
